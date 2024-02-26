@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": "/Users/dankorotenko/Desktop/spotify-clone",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@/components/*": [
+        "src/components/*"
+      ],
+      "@/icons/*": [
+        "src/icons/*"
+      ],
+      "@/lib/*": [
+        "src/lib/*"
+      ],
+      "@/pages/*": [
+        "src/pages/*"
+      ]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  },
+  "extends": "astro/tsconfigs/strict"
+}
